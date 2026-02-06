@@ -5,7 +5,7 @@ import os
 class Settings(BaseModel):
     DB_URL: str = os.getenv(
         "DB_URL",
-        "mysql+pymysql://root:password@127.0.0.1:3306/sakms"
+        "mysql+pymysql://root:rootpass@127.0.0.1:3306/sakms"
     )
     JWT_SECRET: str = os.getenv("JWT_SECRET", "CHANGE_ME_SUPER_SECRET")
     JWT_ALGO: str = "HS256"
