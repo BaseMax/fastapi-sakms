@@ -11,6 +11,8 @@ This project provides a minimal yet production-ready foundation for:
 * OpenAPI / Swagger documentation
 * Modern Python packaging using **uv**
 
+<img width="1920" height="1032" alt="fastapi-sakms" src="https://github.com/user-attachments/assets/6ff26b47-f8c7-4e2e-8d17-142ea7748977" />
+
 ---
 
 ## Features
